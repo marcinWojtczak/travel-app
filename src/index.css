@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1 {
+    @apply text-[47.78px] font-playfair
+}
+
+h2 {
+    @apply text-[39.81px] font-playfair
+}
+
+h3 {
+    @apply text-[33.18px] font-playfair
+}
+
+h4 {
+    @apply text-[27.65px] font-playfair
+}
+
+h5 {
+    @apply text-[23.04px] font-lato
+}
+
+h6 {
+    @apply text-[19.2px] font-lato
+}
+
+p {
+    @apply text-[16px] font-lato
+}
+
+small {
+    @apply text-[13.33px] font-lato
+}
