@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'deep-blue': '#003D5B',
-        'steel-blue': '#30638E',
+        'deepBlue': '#003D5B',
+        'steelBlue': '#30638E',
         'teal': '#00798C',
         'red': '#D1495B',
         'yellow': '#EDAE49'
@@ -16,7 +16,8 @@ export default {
       fontFamily: {
         playfair: ['"Playfair Display"', 'serif'],
         lato: ['Lato', 'sans-serif'],
-      }
+      },
+      
     },
   },
   plugins: [],
