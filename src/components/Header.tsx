@@ -29,7 +29,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className={`flex justify-center py-1 w-full fixed bg-white ${showBorder && 'border-b shadow-lg'}`}>
+      <header className={`flex justify-center py-1 w-full fixed top-0 bg-white ${showBorder && 'border-b shadow-lg'}`}>
         <div className='w-full lg:w-[1300px] flex items-center justify-between px-4 gap-2'>
             <Menu className='md:hidden' onClick={() => setIsMenuOpen(true)} />
             <div className='flex items-center md:justify-around justify-center w-full gap-2'>
