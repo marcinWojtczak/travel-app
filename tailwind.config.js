@@ -11,7 +11,18 @@ export default {
         'steelBlue': '#30638E',
         'teal': '#00798C',
         'red': '#D1495B',
-        'yellow': '#EDAE49'
+        'yellow': '#EDAE49',
+        'lightBlue': '#7198b8',
+        'darkBlue': '#385c7e',
+        'darkGreen': '#182c26',
+        'bottleGreen': '#495d30',
+        'green': '#4a4b0c',
+        'brown': '#ab5f54',
+        'darkBrown': '#383024',
+        'medlar': '#cfbea3',
+        'orange': '#c8560d',
+        'lightOrange': '#c8560d',
+        'gray': "#acb8c0"
       },
       fontFamily: {
         playfair: ['"Playfair Display"', 'serif'],
