@@ -4,7 +4,7 @@ import { Menu } from 'lucide-react';
 import UserAccount from '@components/UserAccount';
 import DesktopMenu from '@components/DesktopMenu';
 import MobileMenu from './MobileMenu';
-import logo from '@assets/logo.png'
+import logo from '@public/logo.png'
 
 export default function Navbar() {
   const [showBorder, setShowBorder] = useState<boolean>(false)
@@ -29,9 +29,9 @@ export default function Navbar() {
 
   return (
     <>
-      <header className={`flex justify-center py-4 w-full fixed ${showBorder && 'border-b shadow-lg'}`}>
+      <header className={`flex justify-center py-1 w-full fixed bg-white ${showBorder && 'border-b shadow-lg'}`}>
         <div className='w-full lg:w-[1300px] flex items-center justify-between px-4 gap-2'>
-            <Menu className='lg:hidden' onClick={() => setIsMenuOpen(true)} />
+            <Menu className='md:hidden' onClick={() => setIsMenuOpen(true)} />
             <div className='flex items-center md:justify-around justify-center w-full gap-2'>
               <div className='flex items-center'>
                 <img src={logo} className='w-[70px] md:w-[65px]'/>
