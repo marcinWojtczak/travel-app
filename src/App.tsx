@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div className='pt-[70px]'>
+      <div className='pt-[75px] flex flex-col justify-center px-4 mx-auto'>
         <HeroSection />
       </div>
       
