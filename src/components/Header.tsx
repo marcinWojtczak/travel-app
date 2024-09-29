@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 import { Menu } from 'lucide-react';
 import UserAccount from '@components/UserAccount';
 import DesktopMenu from '@components/DesktopMenu';
-import MobileMenu from './MobileMenu';
-import logo from '@public/logo.png'
+import MobileMenu from '@components/MobileMenu';
+
 
 export default function Navbar() {
   const [showBorder, setShowBorder] = useState<boolean>(false)
@@ -29,16 +29,23 @@ export default function Navbar() {
 
   return (
     <>
-      <header className={`flex justify-center py-1 w-full fixed top-0 bg-white ${showBorder && 'border-b shadow-lg'}`}>
-        <div className='w-full flex items-center justify-between px-4 gap-2'>
-            <Menu className='md:hidden' onClick={() => setIsMenuOpen(true)} />
+      <header className={`flex justify-center py-4 pr-6 w-full fixed top-0 left-0 ${showBorder && 'border-b border-light-green shadow-lg bg-white'}`}>
+        <div className='w-full flex items-center justify-between gap-2 pl-6'>
+            <Menu 
+              className='md:hidden' 
+              onClick={() => setIsMenuOpen(true)} 
+            />
             <div className='flex items-center justify-around w-full gap-2'>
               <div className='flex items-center'>
-                <img src={logo} className='w-[70px] md:w-[65px]'/>
-                <h4 className='hidden md:inline font-medium'>Travel Advisor</h4>
+                <h3 className='hidden md:inline font-bold '>Travel Advisor</h3>
               </div>
-              <DesktopMenu />
-              <Search type='text' placeholder='search'/>
+              <DesktopMenu border={showBorder}/>
+              <Search 
+                type='text' 
+                placeholder='search' 
+                customWidth="lg:min-w-[360px]"
+                border={showBorder}
+              />
               <UserAccount />
             </div>
         </div>
