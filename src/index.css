@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,34 +8,34 @@
 
 
 h1 {
-    @apply text-[47.78px] font-playfair
+    @apply text-[47.78px] font-aBeeZee text-dark-green
 }
 
 h2 {
-    @apply text-[39.81px] font-playfair
+    @apply text-[39.81px] font-aBeeZee text-dark-green
 }
 
 h3 {
-    @apply text-[33.18px] font-playfair
+    @apply text-[33.18px] font-aBeeZee text-dark-green
 }
 
 h4 {
-    @apply text-[27.65px] font-playfair
+    @apply text-[27.65px] font-aBeeZee text-dark-green
 }
 
 h5 {
-    @apply text-[23.04px] font-lato
+    @apply text-[23.04px] font-lato text-dark-green
 }
 
 h6 {
-    @apply text-[19.2px] font-lato
+    @apply text-[19.2px] font-lato text-dark-green
 }
 
 p {
-    @apply text-[16px] font-lato
+    @apply text-[16px] font-lato text-dark-green
 }
 
 small {
-    @apply text-[13.33px] font-lato
+    @apply text-[13.33px] font-lato text-dark-green
 }
 
