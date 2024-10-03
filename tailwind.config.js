@@ -21,7 +21,7 @@ export default {
         aBeeZee: ['ABeeZee', 'sans-serif']
       },
       backgroundImage: {
-        'parallax': 'url("public/hero-section.jpg")'
+        'parallax': 'url("/hero-section.jpg")'
       }
     },
   },
