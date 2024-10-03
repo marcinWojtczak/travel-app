@@ -29,16 +29,15 @@ export default function Navbar() {
 
   return (
     <>
-      <header 
-        className={`flex justify-center py-4 pr-6 w-full fixed top-0 left-0 ${showBorder && 'border-b border-light-green shadow-lg '}`}
-        style={{ backgroundColor: showBorder ? 'rgba(255, 255, 255, 0.7)' : 'rgba(255, 255, 255, 0)' }}
-      >
-        <div className='w-full flex items-center justify-between gap-2 pl-6'>
+        <header 
+          className={`flex justify-center py-4 w-full fixed top-0 left-0 ${showBorder && 'border-b border-light-green shadow-lg z-50 '}`}
+          style={{ backgroundColor: showBorder ? 'rgba(255, 255, 255, 0.7)' : 'rgba(255, 255, 255, 0)' }}
+        >
+          <div className='w-full max-w-[1250px] flex items-center justify-between gap-2 px-8 lg:px-4 xl:px-0'>
             <Menu 
-              className='md:hidden' 
+              className='lg:hidden' 
               onClick={() => setIsMenuOpen(true)} 
             />
-            <div className='flex items-center justify-around w-full gap-2'>
               <div className='flex items-center'>
                 <h3 className='hidden md:inline font-bold '>Travel Advisor</h3>
               </div>
@@ -50,9 +49,8 @@ export default function Navbar() {
                 border={showBorder}
               />
               <UserAccount />
-            </div>
-        </div>
-      </header>
+          </div>
+        </header>
       <MobileMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)}/>
     </>
   )
