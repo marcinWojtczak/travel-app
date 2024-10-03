@@ -1,5 +1,5 @@
 type ButtonProps = {
-    text: string,
+    text?: string,
     icon: React.ElementType,
     buttonColor: string,
 }
