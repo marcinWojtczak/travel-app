@@ -7,30 +7,23 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-type Attraction = {
-  name: string;
-  description: string;
-  rating: string,
-  subcategory: {
-    name: string
-  }[],
-  photo: {
-    images: {
-      large: {
-        url: string
-      }
-    }
-  };
-};
+type SliderDataProps = {
+  imageUrl: string;
+  title: string;
+  rating?: string;
+  num_reviews?: string;
+  subcategory?: string;
+}
 
 type SliderProps = {
-  attractions: Attraction[];
+  data: SliderDataProps[];
+  sliderId: string
 };
 
-export default function Slider({ attractions }: SliderProps) {
+export default function Slider({ data, sliderId }: SliderProps) {
   const [slidesPerView, setSlidesPerView] = useState<number>(4);
 
-  console.log(attractions)
+  console.log(sliderId)
 
   useEffect(() => {
     function handleResize() {
@@ -52,53 +45,60 @@ export default function Slider({ attractions }: SliderProps) {
     }
   }, [slidesPerView])
 
-  const filteredAttractions = attractions.filter(attr => 
-    attr.photo?.images?.large?.url
-  );
+  // const filteredAttractions = data.filter(attr => 
+  //   attr.photo?.images?.large?.url
+  // );
 
   return (
     <div className='flex flex-col gap-4'>
       <div className='flex items-center justify-end gap-4'>
-        <div className=' button-prev rounded-full text-white bg-brown n px-5 py-1'>
+        <div className={`button-prev-${sliderId} rounded-full text-white bg-brown n px-5 py-1`}>
           <ArrowLeft  className='h-6 w-6' strokeWidth={2}/>
         </div>
-        <div className='button-next rounded-full text-white bg-brown px-5 py-1'>
+        <div className={`button-next-${sliderId} rounded-full text-white bg-brown px-5 py-1`}>
           <ArrowRight className='h-6 w-6' strokeWidth={2}/>
         </div>
       </div>
       <div>
         <Swiper
           modules={[Navigation, Pagination]}
-          spaceBetween={50}
+          spaceBetween={30}
           slidesPerView={slidesPerView}
           navigation={{
-            nextEl: '.button-next',
-            prevEl:'.button-prev',
+            nextEl: `.button-next-${sliderId}`,
+            prevEl: `.button-prev-${sliderId}`,
           }}
           scrollbar={{ draggable: true }}
           loop={true}
         >
-          {filteredAttractions.map((attraction, index) => {
-            const subcategory = attraction.subcategory?.[0];
+          {data?.map((attraction, index) => {
+            // const subcategory = attraction.subcategory ? attraction.subcategory?.[0] : ''
+            const title = attraction.title ? attraction.title.replace(/,\s*Poland/g, '') : attraction.title 
             return (
               <SwiperSlide key={index}>
                 <div className='rounded-2xl flex flex-col gap-4'>
                   <img 
-                    src={attraction?.photo?.images?.large?.url} 
-                    alt={attraction.name} 
+                    src={attraction?.imageUrl} 
+                    alt={title} 
                     className='rounded-xl w-full h-[280px] object-cover'
                   />
-                  <div className=' rounded-xl ' >
-                    <p className='font-bold'>{attraction.name}</p>
-                    <small className='font-medium'>{subcategory?.name}</small>
-                    <ReactStars
-                      count={5}
-                      isHalf={true}
-                      size={24}
-                      value={parseFloat(attraction.rating) || 0}
-                      activeColor="#d15712"
-                      edit={false}
-                    />
+                  <div className='rounded-xl' >
+                    <p className='font-bold'>{title}</p>
+                    <small className='font-medium'>{attraction.subcategory}</small>
+                    {attraction.rating ?
+                      <div className='flex items-center gap-2'>
+                        <ReactStars
+                          count={5}
+                          isHalf={true}
+                          size={16}
+                          value={parseFloat(attraction.rating) || 0}
+                          activeColor="#d15712"
+                          edit={false}
+                        />
+                        {attraction.num_reviews ? <small>({attraction.num_reviews})</small> : ''}
+                      </div>
+                      : ""
+                    }
                   </div>
                 </div>
               </SwiperSlide>
