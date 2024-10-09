@@ -3,6 +3,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import ReactStars from "react-rating-stars-component";
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -17,33 +18,11 @@ type SliderDataProps = {
 
 type SliderProps = {
   data: SliderDataProps[];
-  sliderId: string
+  sliderId: string;
+  countryName?: string
 };
 
-export default function Slider({ data, sliderId }: SliderProps) {
-  const [slidesPerView, setSlidesPerView] = useState<number>(4);
-
-  console.log(sliderId)
-
-  useEffect(() => {
-    function handleResize() {
-      let width = window.innerWidth
-      if (width >= 1200) {
-        setSlidesPerView(4)
-      } else if (width >= 768) {
-        setSlidesPerView(2)
-      } else {
-        setSlidesPerView(1)
-      }
-    }
-
-    handleResize()
-    window.addEventListener('resize', handleResize)
-
-    return () => {
-      window.removeEventListener('resize', handleResize)
-    }
-  }, [slidesPerView])
+export default function Slider({ data, sliderId, countryName }: SliderProps) {
 
   // const filteredAttractions = data.filter(attr => 
   //   attr.photo?.images?.large?.url
@@ -63,7 +42,17 @@ export default function Slider({ data, sliderId }: SliderProps) {
         <Swiper
           modules={[Navigation, Pagination]}
           spaceBetween={30}
-          slidesPerView={slidesPerView}
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1200: {
+              slidesPerView: 4,
+            },
+          }}
           navigation={{
             nextEl: `.button-next-${sliderId}`,
             prevEl: `.button-prev-${sliderId}`,
@@ -76,6 +65,8 @@ export default function Slider({ data, sliderId }: SliderProps) {
             const title = attraction.title ? attraction.title.replace(/,\s*Poland/g, '') : attraction.title 
             return (
               <SwiperSlide key={index}>
+                
+                <Link to={sliderId === 'slider1' ? `things-to-do/${title}` : `explore-country/${countryName}`}>
                 <div className='rounded-2xl flex flex-col gap-4'>
                   <img 
                     src={attraction?.imageUrl} 
@@ -101,6 +92,7 @@ export default function Slider({ data, sliderId }: SliderProps) {
                     }
                   </div>
                 </div>
+                </Link>
               </SwiperSlide>
             )
           })}
