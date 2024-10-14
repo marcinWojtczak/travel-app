@@ -9,6 +9,8 @@
       "@utils/*": ["src/utils/*"],
       "@pages/*": ["src/pages/*"],
       "@store/*": ["src/store/*"],
+      "@data/*": ["src/data/*"],
+      "@features/*": ["src/features/*"],
     }, 
   },
   "files": [],
