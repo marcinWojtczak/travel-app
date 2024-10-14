@@ -1,0 +1,18 @@
+{
+    "data": {
+      "capital": "Warschau",
+      "continent": "Europe",
+      "countryName": "Poland",
+      "government": "Parliamentary republic",
+      "neighborsList": [
+        "Belarus",
+        "Germany",
+        "Lithuania",
+        "Russia",
+        "Slovakia",
+        "Ukraine"
+      ],
+      "officialLanguages": "Polish",
+      "population": "38 476 269"
+    }
+}
