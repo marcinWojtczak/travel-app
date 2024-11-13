@@ -3,10 +3,9 @@ import { useDispatch, useSelector } from "react-redux"
 import { fetchGeolocation } from "../../features/location/locationSlice"
 import { useGetRestaurantsQuery } from "@utils/api/fetch-travelAdvisor-data"
 import { RootState } from '../../store/store';
-import { normalizeAttractionData } from '@utils/normalizeData/normalizeData';
 import SectionWithSlider from "./SectionWithSlider";
-import { normalizeRestaurantData } from "../../utils/normalizeData/normalizeData";
-import restaurantsDataJson from '../../data/restaurantsData.json';
+import { normalizeRestaurantData } from "@utils/normalizeData/normalizeData";
+import restaurantsDataJson from '@data/restaurantsData.json';
 
 type Coordinates = {
     sw: { lat: number, lng: number},
