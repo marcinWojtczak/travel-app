@@ -1,0 +1,184 @@
+[
+    {
+      "location_id": "284409",
+      "name": "Lazienki Krolewskie w Warszawie",
+      "latitude": "52.21467",
+      "longitude": "21.032894",
+      "num_reviews": "8720",
+      "rating": "4.5",
+      "photo": {
+        "images": {
+          "large": {
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/13/da/8c/e1/palace-on-the-isle.jpg"
+          }
+        }
+      },
+      "subcategory": [
+        {
+          "name": "Park"
+        }
+      ]
+    },
+    {
+      "location_id": "284330",
+      "name": "Old Town",
+      "latitude": "52.249706",
+      "longitude": "21.012188",
+      "num_reviews": "13986",
+      "rating": "4.7",
+      "photo": {
+        "images": {
+          "large": {
+            "url":
+            "https://media-cdn.tripadvisor.com/media/photo-s/09/db/72/f1/photo0jpg.jpg"
+          }
+        }
+      },
+      "subcategory": [
+        {
+          "name": "Historic Site"
+        }
+      ]
+    },
+    {
+      "location_id": "573045",
+      "name": "POLIN Muzeum Historii Zydow Polskich",
+      "latitude": "52.249496",
+      "longitude": "20.99348",
+      "num_reviews": "4278",
+      "rating": "4.8",
+      "photo": {
+        "images": {
+          "large": {
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/09/6e/39/3b/muzeum-historii-zydow.jpg"
+          }
+        }
+      },
+      "subcategory": [
+        {
+          "name": "Museum"
+        }
+      ]
+    },
+    {
+      "location_id": "1154437",
+      "name": "The Warsaw Rising Museum",
+      "latitude": "52.23286",
+      "longitude": "20.981035",
+      "num_reviews": "7470",
+      "rating": "4.9",
+      "photo": {
+        "images": {
+          "large": {
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/05/cf/ce/86/warsaw-uprising-museum.jpg"
+          }
+        }
+      },
+      "subcategory": [
+        {
+          "name": "Museum"
+        }
+      ]
+    },
+    {
+      "location_id": "274989",
+      "name": "Rynek Starego Miasta",
+      "latitude": "52.249706",
+      "longitude": "21.012188",
+      "num_reviews": "4841",
+      "rating": "4.7",
+      "photo": {
+        "images": {
+          "large": {
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/01/0b/63/85/warsaw-s-old-town-market.jpg"
+          }
+        }
+      },
+      "subcategory": [
+        {
+          "name": "Square"
+        }
+      ]
+    },
+    {
+      "location_id": "2178256",
+      "name": "Copernicus Science Centre",
+      "latitude": "52.24185",
+      "longitude": "21.028728",
+      "num_reviews": "3117",
+      "rating": "4.6",
+      "photo": {
+        "images": {
+          "large": {
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/01/0b/63/85/warsaw-s-old-town-market.jpg"
+          }
+        }
+      },
+      "subcategory": [
+        {
+          "name": "Science Centre"
+        }
+      ]
+    },
+    {
+      "location_id": "274990",
+      "name": "Royal Castle in Warsaw - Museum",
+      "latitude": "52.24771",
+      "longitude": "21.01416",
+      "num_reviews": "2689",
+      "rating": "4.8",
+      "photo": {
+        "images": {
+          "large": {
+            "url": "https://media-cdn.tripadvisor.com/media/photo-w/22/8e/00/d0/see-you-in-the-royal.jpg"
+          }
+        }
+      },
+      "subcategory": [
+        {
+          "name": "Castle"
+        }
+      ]
+    },
+    {
+      "location_id": "274987",
+      "name": "Castle Square (Plac Zamkowy)",
+      "latitude": "52.247753",
+      "longitude": "21.0138",
+      "num_reviews": "2467",
+      "rating": "4.5",
+      "photo": {
+        "images": {
+          "large": {
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/18/41/16/8f/photo3jpg.jpg"
+          }
+        }
+      },
+      "subcategory": [
+        {
+          "name": "Square"
+        }
+      ]
+    },
+    {
+      "location_id": "275001",
+      "name": "Palace of Culture and Science",
+      "latitude": "52.23192",
+      "longitude": "21.00678",
+      "num_reviews": "5290",
+      "rating": "4.4",
+      "photo": {
+        "images": {
+          "large": {
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/17/7a/15/95/palace-of-culture-and.jpg"
+          }
+        }
+      },
+      "subcategory": [
+        {
+          "name": "Cultural Centre"
+        }
+      ]
+    }
+  ]
+  

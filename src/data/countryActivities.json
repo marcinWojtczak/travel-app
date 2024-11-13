@@ -1,0 +1,83 @@
+{
+    "data": {
+      "activities": [
+        {
+          "title": "Climb the Tatras Mountains",
+          "activity": "For alpine diversions there's nowhere better than the Tatras, with the emerald-green glacial lake Morskie Oko."
+        },
+        {
+          "title": "Delve into the Wieliczka Salt Mine",
+          "activity": "The spectacular Wieliczka Salt Mine, located just outside Kraków, features stunning bas-reliefs, chandeliers and a chapel sculpted from salt."
+        },
+        {
+          "title": "Enter Lublin through the Cracow Gate",
+          "activity": "The primary entrance into the Old Town, the Cracow Gate, boasts impressive fortifications. It also houses a historical museum."
+        },
+        {
+          "title": "Explore the old port city of Gdańsk",
+          "activity": "Gdańsk is home to the largest Gothic church in Poland and the Teutonic castles at Malbork and Gniew."
+        },
+        {
+          "title": "Go hiking in Poland's nature reserves",
+          "activity": "There are few things more inspiring than a march through Poland’s diverse nature reserves, where you might spot lynx, wolf, wildcat and up to 120 brown bears."
+        },
+        {
+          "title": "Go mushroom picking",
+          "activity": "Going for a long meandering walk in the woods to pick mushrooms can be a delightful experience, but make sure to go with an experienced mushrooms expert."
+        },
+        {
+          "title": "Hit the beaches of the Pomeranian coast",
+          "activity": "Poland boasts some of the very best beaches in northern Europe, with ‘moving dunes’ which can shift several metres each year."
+        },
+        {
+          "title": "Learn about the Holocaust at Auschwitz",
+          "activity": "The victims of the Holocaust are remembered at Oświęcim (Auschwitz), providing a poignant perspective on one of history's darkest periods."
+        },
+        {
+          "title": "Learn about the resistance in the Warsaw Rising Museum",
+          "activity": "A walk through the Warsaw Rising Museum is an educational experience that highlights how Warsaw residents were active in the resistance."
+        },
+        {
+          "title": "Sail your way through the Masurian Lake District",
+          "activity": "The Masurian Lake District, consisting of over 1,000 lakes, is a great place for sailing, as well as hosting sea-shanty festivals and other lively events."
+        },
+        {
+          "title": "See the bison in Białowieża National Park",
+          "activity": "Białowieża National Park is the last major refuge of the European bison. Nature trails, cycling, and exploring with a ranger are on offer."
+        },
+        {
+          "title": "Soak up the medieval vibes of Cracow",
+          "activity": "You'll immediately feel the charming medieval atmosphere in Cracow, with its stunning architecture and vibrant nightlife."
+        },
+        {
+          "title": "Travel by horse-drawn sleigh",
+          "activity": "A horse-drawn sleigh ride is a magical experience, especially in the Tatras at Zakopane."
+        },
+        {
+          "title": "Visit Warsaw's reconstructed Old Town",
+          "activity": "Although much of it was destroyed during World War II, Warsaw's Old Town has been carefully reconstructed, showcasing stunning architecture."
+        },
+        {
+          "title": "Visit the Icon of the Black Madonna",
+          "activity": "The Icon of the Black Madonna, also known as the Madonna of Częstochowa, is housed in the Jasna Góra Monastery in Częstochowa."
+        },
+        {
+          "title": "Visit the Old City of Zamość",
+          "activity": "The Renaissance-style market square in Zamość features architecture from Italian models of the 'ideal city'."
+        },
+        {
+          "title": "Visit the house of Poland's greatest composer Chopin",
+          "activity": "The manor house where the famous Polish composer Frédéric Chopin was born contains instruments and furniture used by the great man."
+        },
+        {
+          "title": "Wander the medieval town of Toruń",
+          "activity": "The medieval walled town of Toruń is one of Poland’s best-preserved examples of medieval architecture and is famous for its gingerbread."
+        },
+        {
+          "title": "Wander the pretty town of Wrocław",
+          "activity": "Known as Breslau in German and long a part of the Prussian and then German empires, Wrocław is rich in history, especially around the cathedral on Ostrów Tumski (Cathedral Island)."
+        }
+      ]
+    }
+  }
+  

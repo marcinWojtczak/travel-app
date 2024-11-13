@@ -4,7 +4,13 @@
     "paths": {
       "@/*": ["src/*"],
       "@components/*": ["src/components/*"],
-      "@assets/*": ["src/assets/*"]
+      "@assets/*": ["src/assets/*"],
+      "@public/*": ["public/*"],
+      "@utils/*": ["src/utils/*"],
+      "@pages/*": ["src/pages/*"],
+      "@store/*": ["src/store/*"],
+      "@data/*": ["src/data/*"],
+      "@features/*": ["src/features/*"],
     }, 
   },
   "files": [],
