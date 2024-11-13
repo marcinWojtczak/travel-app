@@ -34,6 +34,14 @@ type NormalizedItem = {
     subcategory?: string;
   };
 
+type RestaurantData ={ 
+    title: string;
+    image_url: string;
+    rating: string;
+    price_level: string;
+    num_reviews: string;
+}
+
 export const normalizeCountryData = (data: CountryData[]): NormalizedItem[] => {
     return data
         .filter(item => item.title !== '')
@@ -53,5 +61,15 @@ export const normalizeAttractionData = (data: AttractionsData[]): NormalizedItem
         rating: item.rating || '',
         num_reviews: item.num_reviews || '',
         subcategory: item.subcategory ? item.subcategory[0]?.name : ''
+    }))
+}
+
+export const normalizeRestaurantData = (data: RestaurantData[]): NormalizedItem[] => {
+    return data.map((item: RestaurantData) => ({
+        title: item.title || "",
+        imageUrl: item.image_url || "",
+        rating: item.rating || "",
+        price_level: item.price_level || "",
+        num_reviews: item.num_reviews || "",
     }))
 }
