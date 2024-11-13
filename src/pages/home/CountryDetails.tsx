@@ -5,7 +5,7 @@ import countryDataJson from '../../data/countryData.json';
 import { useState, useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../store/store';
-import Spinner from 'react-bootstrap/Spinner';
+// import Spinner from 'react-bootstrap/Spinner';
 import { normalizeCountryData } from '../../utils/normalizeData/normalizeData';
 
 interface CountryImage {
@@ -62,9 +62,9 @@ export default function CountryDetail() {
    
     // const countryData = data?.data?.country_images || []
 
-    if (countryData?.data.country_images.length === 0) {
-      return <Spinner className='bg-black'><span>Loading...</span></Spinner>; 
-    }
+    // if (countryData?.data.country_images.length === 0) {
+    //   return <Spinner className='bg-black'><span>Loading...</span></Spinner>; 
+    // }
 
   const countryImages = countryData?.data.country_images || [];
   
