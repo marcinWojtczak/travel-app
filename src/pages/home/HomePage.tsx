@@ -1,6 +1,6 @@
 import HeroSection from './HeroSection';
-import NearbyAttractions from './NearbyAttractions';
-import CountryDetails from './CountryDetails';
+import NearbyAttractions from '@pages/home/NearbyAttractions';
+import Restaurants from '@pages/home/Restaurants';
 
 const HomePage = () => {
   return (
@@ -8,7 +8,7 @@ const HomePage = () => {
       <HeroSection />
       <div className='mx-auto flex flex-col gap-20 my-10 lg:my-20'>
         <NearbyAttractions />
-        <CountryDetails />
+        <Restaurants />
       </div>
     </>
   );
