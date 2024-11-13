@@ -1,0 +1,103 @@
+[
+    {
+        "location_id": "27138628",
+        "title": "Primitivo Kuchnia i Wino",
+        "latitude": "52.23527",
+        "longitude": "20.992113",
+        "num_reviews": "416",
+        "rating": "5.0",
+        "price_level": "$$ - $$$",
+        "image_url": "https://media-cdn.tripadvisor.com/media/photo-w/16/80/51/40/jedna-z-najstarszych.jpg"
+    },
+    {
+        "location_id": "10056164",
+        "title": "Cafe Mozaika",
+        "latitude": "52.204475",
+        "longitude": "21.02355",
+        "num_reviews": "480",
+        "rating": "5.0",
+        "price_level": "$$ - $$$",
+        "image_url": "https://media-cdn.tripadvisor.com/media/photo-w/16/80/51/40/jedna-z-najstarszych.jpg"
+    },
+    {
+        "location_id": "23378661",
+        "title": "Sushi Kado",
+        "latitude": "52.22728",
+        "longitude": "20.952412",
+        "num_reviews": "315",
+        "rating": "5.0",
+        "price_level": "$$ - $$$",
+        "image_url": "https://media-cdn.tripadvisor.com/media/photo-w/16/80/51/40/jedna-z-najstarszych.jpg" 
+    },
+    {
+        "location_id": "3958333",
+        "title": "Akademia Restaurant",
+        "latitude": "52.203648",
+        "longitude": "21.022667",
+        "num_reviews": "493",
+        "rating": "5.0",
+        "price_level": "$$ - $$$",
+        "image_url": "https://media-cdn.tripadvisor.com/media/photo-w/16/80/51/40/jedna-z-najstarszych.jpg" 
+    },
+    {
+        "location_id": "11954933",
+        "title": "Stolica",
+        "latitude": "52.24952",
+        "longitude": "21.010439",
+        "num_reviews": "2256",
+        "rating": "5.0",
+        "price_level": "$$ - $$$",
+        "image_url": "https://media-cdn.tripadvisor.com/media/photo-w/16/80/51/40/jedna-z-najstarszych.jpg" 
+    },
+    {
+        "location_id": "5930832",
+        "title": "Stara Kamienica",
+        "latitude": "52.232025",
+        "longitude": "21.015257",
+        "num_reviews": "2258",
+        "rating": "5.0",
+        "price_level": "$$ - $$$",
+        "image_url": "https://media-cdn.tripadvisor.com/media/photo-w/16/80/51/40/jedna-z-najstarszych.jpg" 
+    },
+    {
+        "location_id": "7298384",
+        "title": "InFormal Kitchen",
+        "latitude": "52.239",
+        "longitude": "21.013744",
+        "num_reviews": "1282",
+        "rating": "5.0",
+        "price_level": "$$ - $$$",
+        "image_url": "https://media-cdn.tripadvisor.com/media/photo-w/16/80/51/40/jedna-z-najstarszych.jpg" 
+    },
+    {
+        "location_id": "14138849",
+        "title": "Prime Cut",
+        "latitude": "52.234447",
+        "longitude": "20.999416",
+        "num_reviews": "1292",
+        "rating": "5.0",
+        "price_level": "$$ - $$$",
+        "image_url": "https://media-cdn.tripadvisor.com/media/photo-w/16/80/51/40/jedna-z-najstarszych.jpg" 
+    },
+    {
+        "location_id": "697137",
+        "title": "Pod Samsonem",
+        "latitude": "52.251087",
+        "longitude": "21.008593",
+        "num_reviews": "281",
+        "rating": "5.0",
+        "price_level": "$$ - $$$",
+        "image_url": "https://media-cdn.tripadvisor.com/media/photo-w/16/80/51/40/jedna-z-najstarszych.jpg" 
+        
+    },
+    {
+        "location_id": "3669179",
+        "title": "Restauracja Sofra",
+        "latitude": "52.2232",
+        "longitude": "21.008438",
+        "num_reviews": "292",
+        "rating": "5.0",
+        "price_level": "$$ - $$$",
+        "image_url": "https://media-cdn.tripadvisor.com/media/photo-w/16/80/51/40/jedna-z-najstarszych.jpg" 
+    }
+]
